@@ -26,12 +26,12 @@ jobs:
       - name: Build index
         run: bun run build
 
-      - name: Commit plugins.json
+      - name: Commit generated changes
         run: |
-          if git diff --quiet -- plugins.json; then
-            echo "No changes to plugins.json"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
             exit 0
           fi
-          git add plugins.json
-          git -c user.name="github-actions" -c user.email="github-actions@users.noreply.github.com" commit -m "chore: update plugins.json"
+          git -c user.name="github-actions" -c user.email="github-actions@users.noreply.github.com" commit -m "chore: update generated files"
           git push
