@@ -6,7 +6,6 @@ import { TPlugin, TPluginVersion, zPlugin, zPluginVersion } from './types';
 const ROOT_DIR = process.cwd();
 const PLUGINS_DIR = path.join(ROOT_DIR, 'plugins');
 const INDEX_FILE = path.join(ROOT_DIR, 'plugins.json');
-const MAX_LOGO_SIZE = 1024 * 1024; // 1 MB
 
 const pluginDirs = await fs.readdir(PLUGINS_DIR);
 
@@ -40,22 +39,6 @@ for (const pluginId of pluginDirs) {
     throw new Error(
       `Plugin ID mismatch: expected ${pluginId}, got ${plugin.id}`
     );
-  }
-
-  const logoPath = path.join(pluginPath, plugin.logo);
-
-  if (!(await fs.exists(logoPath))) {
-    throw new Error(`Logo file not found for plugin: ${pluginId}`);
-  }
-
-  const logoStat = await fs.stat(logoPath);
-
-  if (!logoStat.isFile()) {
-    throw new Error(`Logo path is not a file for plugin: ${pluginId}`);
-  }
-
-  if (logoStat.size > MAX_LOGO_SIZE) {
-    throw new Error(`Logo should be less than 1 MB: ${pluginId}`);
   }
 
   if (plugin.tags && plugin.tags.some((tag) => !TAGS.includes(tag))) {

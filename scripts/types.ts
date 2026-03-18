@@ -6,7 +6,7 @@ const zPlugin = z.object({
   description: z.string(),
   author: z.string(),
   repo: z.string(),
-  logo: z.string(),
+  logo: z.url(),
   homepage: z.string().optional(),
   tags: z.array(z.string()).optional(),
   categories: z.array(z.string()).optional()

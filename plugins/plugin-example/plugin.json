@@ -4,7 +4,7 @@
   "description": "An example plugin to demonstrate the plugin system.",
   "author": "John Doe",
   "repo": "https://github.com/johndoe/plugin-example",
-  "logo": "./logo.png",
+  "logo": "https://placehold.co/100x100/white/black",
   "homepage": "https://example.com/plugin-example",
   "tags": [],
   "categories": []
