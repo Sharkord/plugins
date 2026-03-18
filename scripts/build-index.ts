@@ -116,6 +116,10 @@ for (const pluginId of pluginDirs) {
       return bPatch - aPatch;
     })
   });
+
+  console.log(
+    `Processed plugin: ${pluginId} with ${versions.length} versions.`
+  );
 }
 
 await fs.writeFile(INDEX_FILE, JSON.stringify(results));
