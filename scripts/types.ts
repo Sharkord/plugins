@@ -26,7 +26,8 @@ const zPluginVersion = z.object({
   downloadUrl: z.url(),
   checksum: z.string(),
   sdkVersion: z.number().int().nonnegative(),
-  size: z.number()
+  size: z.number(),
+  timestamp: z.number().int().nonnegative()
 });
 
 type TPlugin = z.infer<typeof zPlugin>;

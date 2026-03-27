@@ -1,7 +1,8 @@
 {
   "version": "0.0.1",
   "downloadUrl": "https://github.com/Sharkord/music-bot/releases/download/v0.0.1/music-bot-0.0.1.tar.gz",
-  "checksum": "20f0a437da4fae75945990d09e655ad74f1992fb2e585a72a60ecba8b18106ec",
+  "checksum": "d46b953c3e4e9cf4f42bfc0580fc78d60114f1385ab1b2d2a78186813306408a",
   "sdkVersion": 1,
-  "size": 368640
+  "size": 368640,
+  "timestamp": 1774638957416
 }
