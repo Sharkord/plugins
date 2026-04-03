@@ -1,0 +1,55 @@
+name: analyze
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    paths:
+      - 'plugins/**/versions/*.json'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
+
+      - name: Install deps
+        run: bun install
+
+      - name: Detect new version files
+        id: detect
+        run: |
+          added_files=$(git diff --name-only --diff-filter=A "${{ github.event.pull_request.base.sha }}" "${{ github.event.pull_request.head.sha }}" -- 'plugins/*/versions/*.json')
+          {
+            echo 'files<<EOF'
+            echo "$added_files"
+            echo 'EOF'
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Skip when no new version files were added
+        if: steps.detect.outputs.files == ''
+        run: echo 'No new version files added in this pull request.'
+
+      - name: Analyze new plugin versions
+        if: steps.detect.outputs.files != ''
+        env:
+          VIRUSTOTAL_API_KEY: ${{ secrets.VIRUSTOTAL_API_KEY }}
+        run: |
+          if [ -z "$VIRUSTOTAL_API_KEY" ]; then
+            echo 'VIRUSTOTAL_API_KEY is unavailable for this pull request, skipping analysis.'
+            exit 0
+          fi
+
+          while IFS= read -r file; do
+            file=$(echo "$file" | xargs)
+            if [ -n "$file" ]; then
+              bun run analyze -- "$file"
+            fi
+          done <<'EOF'
+          ${{ steps.detect.outputs.files }}
+          EOF

@@ -6,6 +6,7 @@
   "scripts": {
     "build": "bun scripts/build-index.ts",
     "validate": "DRY_RUN=1 bun scripts/build-index.ts",
+    "analyze": "bun scripts/analyze.ts",
     "format": "prettier --write \"**/*.ts*\" --config ./.prettierrc.json",
     "format:check": "prettier --check \"**/*.ts*\" --config ./.prettierrc.json",
     "lint": "eslint ./src/**/*.ts --ext ts --report-unused-disable-directives",
