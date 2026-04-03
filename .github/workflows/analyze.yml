@@ -1,25 +1,23 @@
 name: analyze
 
 on:
-  pull_request:
+  pull_request_target:
     types: [opened, synchronize, reopened]
     paths:
       - 'plugins/**/versions/*.json'
 
 jobs:
-  validate:
+  analyze:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout base branch
         uses: actions/checkout@v4
         with:
+          ref: ${{ github.event.pull_request.base.sha }}
           fetch-depth: 0
 
-      - name: Setup Bun
-        uses: oven-sh/setup-bun@v1
-
-      - name: Install deps
-        run: bun install
+      - name: Fetch PR head
+        run: git fetch origin "${{ github.event.pull_request.head.sha }}"
 
       - name: Detect new version files
         id: detect
@@ -35,16 +33,31 @@ jobs:
         if: steps.detect.outputs.files == ''
         run: echo 'No new version files added in this pull request.'
 
+      - name: Checkout PR version files only
+        if: steps.detect.outputs.files != ''
+        run: |
+          while IFS= read -r file; do
+            file=$(echo "$file" | xargs)
+            if [ -n "$file" ]; then
+              git checkout "${{ github.event.pull_request.head.sha }}" -- "$file"
+            fi
+          done <<'EOF'
+          ${{ steps.detect.outputs.files }}
+          EOF
+
+      - name: Setup Bun
+        if: steps.detect.outputs.files != ''
+        uses: oven-sh/setup-bun@v1
+
+      - name: Install deps
+        if: steps.detect.outputs.files != ''
+        run: bun install
+
       - name: Analyze new plugin versions
         if: steps.detect.outputs.files != ''
         env:
           VIRUSTOTAL_API_KEY: ${{ secrets.VIRUSTOTAL_API_KEY }}
         run: |
-          if [ -z "$VIRUSTOTAL_API_KEY" ]; then
-            echo 'VIRUSTOTAL_API_KEY is unavailable for this pull request, skipping analysis.'
-            exit 0
-          fi
-
           while IFS= read -r file; do
             file=$(echo "$file" | xargs)
             if [ -n "$file" ]; then
