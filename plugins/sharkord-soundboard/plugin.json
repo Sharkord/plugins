@@ -1,0 +1,11 @@
+{
+  "id": "sharkord-soundboard",
+  "name": "SoundDrop",
+  "description": "Adds a soundboard to voice channels.",
+  "author": "rinky-dinky",
+  "logo": "https://i.imgur.com/WQBHYh3.png",
+  "homepage": "https://github.com/rinky-dinky/sharkord-soundboard",
+  "screenshots": ["https://i.imgur.com/IPnNPGz.jpeg","https://i.imgur.com/yVj0ewK.jpeg"],
+  "tags": [],
+  "categories": []
+}
