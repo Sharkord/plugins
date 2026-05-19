@@ -1,0 +1,15 @@
+{
+  "id": "sharkord-rss",
+  "name": "RSS News Feed",
+  "description": "Subscribe to RSS/Atom feeds and automatically post new articles to text channels. Native settings dialog, SSRF-aware URL validation, in-memory dedup, optional bootstrap import, exponential backoff, sanitized HTML news cards.",
+  "author": "Esseker",
+  "logo": "https://raw.githubusercontent.com/EssekerDev/sharkord-rss/main/logo.png",
+  "homepage": "https://github.com/EssekerDev/sharkord-rss",
+  "tags": [],
+  "categories": [],
+  "screenshots": [
+    "https://raw.githubusercontent.com/EssekerDev/sharkord-rss/main/docs/01-open-settings-dark.png",
+    "https://raw.githubusercontent.com/EssekerDev/sharkord-rss/main/docs/02-feed-row-dark.png",
+    "https://raw.githubusercontent.com/EssekerDev/sharkord-rss/main/docs/03-news-card-dark.png"
+  ]
+}
