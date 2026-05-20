@@ -1,0 +1,13 @@
+{
+  "id": "sharkord-rss",
+  "name": "Sharkord RSS",
+  "description": "Subscribe to RSS/Atom feeds and automatically post new articles to text channels. Admin-only JSON configuration, SSRF-aware URL validation, per-feed exponential backoff, and optional initial import.",
+  "author": "Esseker",
+  "logo": "https://raw.githubusercontent.com/EssekerDev/sharkord-rss/main/logo.png",
+  "homepage": "https://github.com/EssekerDev/sharkord-rss",
+  "tags": [],
+  "categories": [],
+  "screenshots": [
+    "https://raw.githubusercontent.com/EssekerDev/sharkord-rss/main/docs/articles.png"
+  ]
+}
