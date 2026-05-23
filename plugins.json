@@ -33,30 +33,6 @@
   },
   {
     "plugin": {
-      "id": "klipy",
-      "name": "Klipy",
-      "description": "A plugin to share GIFs from Klipy.",
-      "author": "Diogo Martino",
-      "logo": "https://i.imgur.com/LvqJc0W.png",
-      "homepage": "https://github.com/Sharkord/klipy",
-      "tags": [],
-      "categories": [],
-      "verified": true,
-      "screenshots": ["https://i.imgur.com/0f0YHgc.png"]
-    },
-    "versions": [
-      {
-        "version": "0.0.1",
-        "downloadUrl": "https://github.com/Sharkord/klipy/releases/download/v0.0.1/klipy-0.0.1.tar.gz",
-        "checksum": "5c596fa445757333388535d9f812ff9a9dc56c8a37fbb2a5a28dd9d52d57e0cd",
-        "sdkVersion": 1,
-        "size": 1331200,
-        "timestamp": 1774651378893
-      }
-    ]
-  },
-  {
-    "plugin": {
       "id": "sharkord-soundboard",
       "name": "SoundDrop",
       "description": "Adds a soundboard to voice channels. If updating from a previous version, please view the readme on github.",
@@ -119,6 +95,56 @@
         "sdkVersion": 1,
         "size": 849920,
         "timestamp": 1774666607981
+      }
+    ]
+  },
+  {
+    "plugin": {
+      "id": "sharkord-rss",
+      "name": "Sharkord RSS",
+      "description": "Subscribe to RSS/Atom feeds and automatically post new articles to text channels. Admin-only JSON configuration, SSRF-aware URL validation, per-feed exponential backoff, and optional initial import.",
+      "author": "Esseker",
+      "logo": "https://raw.githubusercontent.com/EssekerDev/sharkord-rss/main/logo.png",
+      "homepage": "https://github.com/EssekerDev/sharkord-rss",
+      "tags": [],
+      "categories": [],
+      "verified": false,
+      "screenshots": [
+        "https://raw.githubusercontent.com/EssekerDev/sharkord-rss/main/docs/articles.png"
+      ]
+    },
+    "versions": [
+      {
+        "version": "0.1.0",
+        "downloadUrl": "https://github.com/EssekerDev/sharkord-rss/releases/download/v0.1.0/sharkord-rss-0.1.0.tar.gz",
+        "checksum": "a754796344ff8ee81833dac2a703640294875d765bd526bdd132372b537d639e",
+        "sdkVersion": 1,
+        "size": 174080,
+        "timestamp": 1779282004976
+      }
+    ]
+  },
+  {
+    "plugin": {
+      "id": "klipy",
+      "name": "Klipy",
+      "description": "A plugin to share GIFs from Klipy.",
+      "author": "Diogo Martino",
+      "logo": "https://i.imgur.com/LvqJc0W.png",
+      "homepage": "https://github.com/Sharkord/klipy",
+      "tags": [],
+      "categories": [],
+      "verified": true,
+      "screenshots": ["https://i.imgur.com/0f0YHgc.png"]
+    },
+    "versions": [
+      {
+        "version": "0.0.1",
+        "downloadUrl": "https://github.com/Sharkord/klipy/releases/download/v0.0.1/klipy-0.0.1.tar.gz",
+        "checksum": "5c596fa445757333388535d9f812ff9a9dc56c8a37fbb2a5a28dd9d52d57e0cd",
+        "sdkVersion": 1,
+        "size": 1331200,
+        "timestamp": 1774651378893
       }
     ]
   }
