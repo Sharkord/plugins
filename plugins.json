@@ -131,6 +131,30 @@
   },
   {
     "plugin": {
+      "id": "git-logger",
+      "name": "Git Logger",
+      "description": "Receives GitHub webhooks and posts the events into channels.",
+      "author": "Diogo Martino",
+      "logo": "https://i.imgur.com/igtjVA7.png",
+      "homepage": "https://github.com/Sharkord/git-logger",
+      "tags": [],
+      "categories": [],
+      "verified": true,
+      "screenshots": ["https://i.imgur.com/kc1YEbr.png"]
+    },
+    "versions": [
+      {
+        "version": "0.0.1",
+        "downloadUrl": "https://github.com/Sharkord/git-logger/releases/download/v0.0.1/git-logger-0.0.1.tar.gz",
+        "checksum": "35fcb95f715b666441e44fa98e446964b0bf1613e054f9d1402915a050a32140",
+        "sdkVersion": 2,
+        "size": 143360,
+        "timestamp": 1788564593665
+      }
+    ]
+  },
+  {
+    "plugin": {
       "id": "sharkord-soundboard",
       "name": "SoundDrop",
       "description": "Adds a soundboard to voice channels. If updating from a previous version, please view the readme on github.",
