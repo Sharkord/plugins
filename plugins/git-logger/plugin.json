@@ -1,0 +1,12 @@
+{
+  "id": "git-logger",
+  "name": "Git Logger",
+  "description": "Receives GitHub webhooks and posts the events into channels.",
+  "author": "Diogo Martino",
+  "homepage": "https://github.com/Sharkord/git-logger",
+  "logo": "https://i.imgur.com/igtjVA7.png",
+  "screenshots": ["https://i.imgur.com/kc1YEbr.png"],
+  "verified": true,
+  "tags": [],
+  "categories": []
+}
