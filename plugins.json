@@ -1,6 +1,38 @@
 [
   {
     "plugin": {
+      "id": "klipy",
+      "name": "Klipy",
+      "description": "A plugin to share GIFs from Klipy.",
+      "author": "Diogo Martino",
+      "logo": "https://i.imgur.com/LvqJc0W.png",
+      "homepage": "https://github.com/Sharkord/klipy",
+      "tags": [],
+      "categories": [],
+      "verified": true,
+      "screenshots": ["https://i.imgur.com/0f0YHgc.png"]
+    },
+    "versions": [
+      {
+        "version": "0.0.2",
+        "downloadUrl": "https://github.com/Sharkord/klipy/releases/download/v0.0.2/klipy-0.0.2.tar.gz",
+        "checksum": "ec385589f82f11300329e56ecd6d93ae8698e1bec8cbb09216f3d339134f827a",
+        "sdkVersion": 2,
+        "size": 122880,
+        "timestamp": 1788562315264
+      },
+      {
+        "version": "0.0.1",
+        "downloadUrl": "https://github.com/Sharkord/klipy/releases/download/v0.0.1/klipy-0.0.1.tar.gz",
+        "checksum": "5c596fa445757333388535d9f812ff9a9dc56c8a37fbb2a5a28dd9d52d57e0cd",
+        "sdkVersion": 1,
+        "size": 1331200,
+        "timestamp": 1774651378893
+      }
+    ]
+  },
+  {
+    "plugin": {
       "id": "music-bot",
       "name": "Music Bot",
       "description": "Allows users to stream music to voice channels.",
@@ -13,6 +45,14 @@
       "screenshots": ["https://i.imgur.com/cYA9yTc.png"]
     },
     "versions": [
+      {
+        "version": "0.0.3",
+        "downloadUrl": "https://github.com/Sharkord/music-bot/releases/download/v0.0.3/music-bot-0.0.3.tar.gz",
+        "checksum": "a93190960046dd7466894bc7c9fb5e53c4c433d030ce4a257638138c4cda4c9f",
+        "sdkVersion": 2,
+        "size": 133120,
+        "timestamp": 1788562356993
+      },
       {
         "version": "0.0.2",
         "downloadUrl": "https://github.com/Sharkord/music-bot/releases/download/v0.0.2/music-bot-0.0.2.tar.gz",
@@ -28,6 +68,64 @@
         "sdkVersion": 1,
         "size": 368640,
         "timestamp": 1774666614697
+      }
+    ]
+  },
+  {
+    "plugin": {
+      "id": "sharkord-rss",
+      "name": "Sharkord RSS",
+      "description": "Subscribe to RSS/Atom feeds and automatically post new articles to text channels. Admin-only JSON configuration, SSRF-aware URL validation, per-feed exponential backoff, and optional initial import.",
+      "author": "Esseker",
+      "logo": "https://raw.githubusercontent.com/EssekerDev/sharkord-rss/main/logo.png",
+      "homepage": "https://github.com/EssekerDev/sharkord-rss",
+      "tags": [],
+      "categories": [],
+      "verified": false,
+      "screenshots": [
+        "https://raw.githubusercontent.com/EssekerDev/sharkord-rss/main/docs/articles.png"
+      ]
+    },
+    "versions": [
+      {
+        "version": "0.1.1",
+        "downloadUrl": "https://github.com/EssekerDev/sharkord-rss/releases/download/v0.1.1/sharkord-rss-0.1.1.tar.gz",
+        "checksum": "10fe6f709a48adde9e053538dcd2456c8a9ccf98ee5194a3c24cb0cb2b337bcc",
+        "sdkVersion": 1,
+        "size": 174080,
+        "timestamp": 1779734578754
+      }
+    ]
+  },
+  {
+    "plugin": {
+      "id": "iptv",
+      "name": "IPTV",
+      "description": "Allows you to stream IPTV channels directly to voice channels.",
+      "author": "Diogo Martino",
+      "logo": "https://i.imgur.com/ozINkq3.jpeg",
+      "homepage": "https://github.com/Sharkord/iptv",
+      "tags": [],
+      "categories": [],
+      "verified": true,
+      "screenshots": ["https://i.imgur.com/4WALR7e.png"]
+    },
+    "versions": [
+      {
+        "version": "0.0.2",
+        "downloadUrl": "https://github.com/Sharkord/iptv/releases/download/v0.0.2/iptv-0.0.2.tar.gz",
+        "checksum": "67ed0a15006e5b9a7fad2c7dea1005b65b93875830376bb9b7bcc5cdd0085540",
+        "sdkVersion": 2,
+        "size": 317440,
+        "timestamp": 1788562410248
+      },
+      {
+        "version": "0.0.1",
+        "downloadUrl": "https://github.com/Sharkord/iptv/releases/download/v0.0.1/iptv-0.0.1.tar.gz",
+        "checksum": "e1a5cf16fbd40f6c86e2bc4ccf38c2444ed6bd279103d14071b0a70ceec53afc",
+        "sdkVersion": 1,
+        "size": 849920,
+        "timestamp": 1774666607981
       }
     ]
   },
@@ -71,80 +169,6 @@
         "sdkVersion": 1,
         "size": 40960,
         "timestamp": 1775054959908
-      }
-    ]
-  },
-  {
-    "plugin": {
-      "id": "iptv",
-      "name": "IPTV",
-      "description": "Allows you to stream IPTV channels directly to voice channels.",
-      "author": "Diogo Martino",
-      "logo": "https://i.imgur.com/ozINkq3.jpeg",
-      "homepage": "https://github.com/Sharkord/iptv",
-      "tags": [],
-      "categories": [],
-      "verified": true,
-      "screenshots": ["https://i.imgur.com/4WALR7e.png"]
-    },
-    "versions": [
-      {
-        "version": "0.0.1",
-        "downloadUrl": "https://github.com/Sharkord/iptv/releases/download/v0.0.1/iptv-0.0.1.tar.gz",
-        "checksum": "e1a5cf16fbd40f6c86e2bc4ccf38c2444ed6bd279103d14071b0a70ceec53afc",
-        "sdkVersion": 1,
-        "size": 849920,
-        "timestamp": 1774666607981
-      }
-    ]
-  },
-  {
-    "plugin": {
-      "id": "sharkord-rss",
-      "name": "Sharkord RSS",
-      "description": "Subscribe to RSS/Atom feeds and automatically post new articles to text channels. Admin-only JSON configuration, SSRF-aware URL validation, per-feed exponential backoff, and optional initial import.",
-      "author": "Esseker",
-      "logo": "https://raw.githubusercontent.com/EssekerDev/sharkord-rss/main/logo.png",
-      "homepage": "https://github.com/EssekerDev/sharkord-rss",
-      "tags": [],
-      "categories": [],
-      "verified": false,
-      "screenshots": [
-        "https://raw.githubusercontent.com/EssekerDev/sharkord-rss/main/docs/articles.png"
-      ]
-    },
-    "versions": [
-      {
-        "version": "0.1.1",
-        "downloadUrl": "https://github.com/EssekerDev/sharkord-rss/releases/download/v0.1.1/sharkord-rss-0.1.1.tar.gz",
-        "checksum": "10fe6f709a48adde9e053538dcd2456c8a9ccf98ee5194a3c24cb0cb2b337bcc",
-        "sdkVersion": 1,
-        "size": 174080,
-        "timestamp": 1779734578754
-      }
-    ]
-  },
-  {
-    "plugin": {
-      "id": "klipy",
-      "name": "Klipy",
-      "description": "A plugin to share GIFs from Klipy.",
-      "author": "Diogo Martino",
-      "logo": "https://i.imgur.com/LvqJc0W.png",
-      "homepage": "https://github.com/Sharkord/klipy",
-      "tags": [],
-      "categories": [],
-      "verified": true,
-      "screenshots": ["https://i.imgur.com/0f0YHgc.png"]
-    },
-    "versions": [
-      {
-        "version": "0.0.1",
-        "downloadUrl": "https://github.com/Sharkord/klipy/releases/download/v0.0.1/klipy-0.0.1.tar.gz",
-        "checksum": "5c596fa445757333388535d9f812ff9a9dc56c8a37fbb2a5a28dd9d52d57e0cd",
-        "sdkVersion": 1,
-        "size": 1331200,
-        "timestamp": 1774651378893
       }
     ]
   }
