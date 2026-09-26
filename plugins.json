@@ -1,73 +1,52 @@
 [
   {
     "plugin": {
-      "id": "klipy",
-      "name": "Klipy",
-      "description": "A plugin to share GIFs from Klipy.",
-      "author": "Diogo Martino",
-      "logo": "https://i.imgur.com/LvqJc0W.png",
-      "homepage": "https://github.com/Sharkord/klipy",
+      "id": "sharkord-soundboard",
+      "name": "SoundDrop",
+      "description": "Adds a soundboard to voice channels. If updating from v0.0.8 or earlier, please view the readme on github.",
+      "author": "rinky-dinky",
+      "logo": "https://i.imgur.com/WQBHYh3.png",
+      "homepage": "https://github.com/rinky-dinky/sharkord-soundboard",
       "tags": [],
       "categories": [],
-      "verified": true,
-      "screenshots": ["https://i.imgur.com/0f0YHgc.png"]
+      "verified": false,
+      "screenshots": [
+        "https://i.imgur.com/EdIxnae.jpeg",
+        "https://i.imgur.com/8blyb4t.jpeg"
+      ]
     },
     "versions": [
       {
-        "version": "0.0.2",
-        "downloadUrl": "https://github.com/Sharkord/klipy/releases/download/v0.0.2/klipy-0.0.2.tar.gz",
-        "checksum": "ec385589f82f11300329e56ecd6d93ae8698e1bec8cbb09216f3d339134f827a",
+        "version": "0.0.9",
+        "downloadUrl": "https://github.com/rinky-dinky/sharkord-soundboard/releases/download/v0.0.9/sharkord-soundboard-0.0.9.tar.gz",
+        "checksum": "c0c04b61271172f3fff888ab872f28edfc7d64785021747a795146d1901c2f94",
         "sdkVersion": 2,
-        "size": 122880,
-        "timestamp": 1788562315264
+        "size": 81920,
+        "timestamp": 1789831914032
       },
       {
-        "version": "0.0.1",
-        "downloadUrl": "https://github.com/Sharkord/klipy/releases/download/v0.0.1/klipy-0.0.1.tar.gz",
-        "checksum": "5c596fa445757333388535d9f812ff9a9dc56c8a37fbb2a5a28dd9d52d57e0cd",
+        "version": "0.0.7",
+        "downloadUrl": "https://github.com/rinky-dinky/sharkord-soundboard/releases/download/v0.0.7/sharkord-soundboard-0.0.7.tar.gz",
+        "checksum": "67e35178d92e5f3a494c78e857729619c24b5a394ef9db82b5603beb799545d0",
         "sdkVersion": 1,
-        "size": 1331200,
-        "timestamp": 1774651378893
-      }
-    ]
-  },
-  {
-    "plugin": {
-      "id": "music-bot",
-      "name": "Music Bot",
-      "description": "Allows users to stream music to voice channels.",
-      "author": "Diogo Martino",
-      "logo": "https://i.imgur.com/uVBNUK9.png",
-      "homepage": "https://github.com/Sharkord/music-bot",
-      "tags": [],
-      "categories": [],
-      "verified": true,
-      "screenshots": ["https://i.imgur.com/cYA9yTc.png"]
-    },
-    "versions": [
-      {
-        "version": "0.0.3",
-        "downloadUrl": "https://github.com/Sharkord/music-bot/releases/download/v0.0.3/music-bot-0.0.3.tar.gz",
-        "checksum": "a93190960046dd7466894bc7c9fb5e53c4c433d030ce4a257638138c4cda4c9f",
-        "sdkVersion": 2,
-        "size": 133120,
-        "timestamp": 1788562356993
+        "size": 81920,
+        "timestamp": 1776718434114
       },
       {
-        "version": "0.0.2",
-        "downloadUrl": "https://github.com/Sharkord/music-bot/releases/download/v0.0.2/music-bot-0.0.2.tar.gz",
-        "checksum": "2ba9f3e1925d55641a3597b7ca54e02e69f6f87faa3a682c2bd79085e16c0a28",
+        "version": "0.0.6",
+        "downloadUrl": "https://github.com/rinky-dinky/sharkord-soundboard/releases/download/v0.0.6/sharkord-soundboard-0.0.6.tar.gz",
+        "checksum": "a5d69d714579a7b3f9897e359e22fa43d2f15866e1f1cc6cb3ca27bc2b187a5d",
         "sdkVersion": 1,
-        "size": 1372160,
-        "timestamp": 1775957590667
+        "size": 71680,
+        "timestamp": 1775500013060
       },
       {
-        "version": "0.0.1",
-        "downloadUrl": "https://github.com/Sharkord/music-bot/releases/download/v0.0.1/music-bot-0.0.1.tar.gz",
-        "checksum": "2cac439b8cf67d367e4d9d157b616a8855d12cae70e4d20755f6610a0f090323",
+        "version": "0.0.4",
+        "downloadUrl": "https://github.com/rinky-dinky/sharkord-soundboard/releases/download/v0.0.4/sharkord-soundboard-0.0.4.tar.gz",
+        "checksum": "143bfe2da2d99abd54f88a23e169ee86f3893711e4497f3e32dd9cf7eab42110",
         "sdkVersion": 1,
-        "size": 368640,
-        "timestamp": 1774666614697
+        "size": 40960,
+        "timestamp": 1775054959908
       }
     ]
   },
@@ -147,6 +126,78 @@
   },
   {
     "plugin": {
+      "id": "music-bot",
+      "name": "Music Bot",
+      "description": "Allows users to stream music to voice channels.",
+      "author": "Diogo Martino",
+      "logo": "https://i.imgur.com/uVBNUK9.png",
+      "homepage": "https://github.com/Sharkord/music-bot",
+      "tags": [],
+      "categories": [],
+      "verified": true,
+      "screenshots": ["https://i.imgur.com/cYA9yTc.png"]
+    },
+    "versions": [
+      {
+        "version": "0.0.3",
+        "downloadUrl": "https://github.com/Sharkord/music-bot/releases/download/v0.0.3/music-bot-0.0.3.tar.gz",
+        "checksum": "a93190960046dd7466894bc7c9fb5e53c4c433d030ce4a257638138c4cda4c9f",
+        "sdkVersion": 2,
+        "size": 133120,
+        "timestamp": 1788562356993
+      },
+      {
+        "version": "0.0.2",
+        "downloadUrl": "https://github.com/Sharkord/music-bot/releases/download/v0.0.2/music-bot-0.0.2.tar.gz",
+        "checksum": "2ba9f3e1925d55641a3597b7ca54e02e69f6f87faa3a682c2bd79085e16c0a28",
+        "sdkVersion": 1,
+        "size": 1372160,
+        "timestamp": 1775957590667
+      },
+      {
+        "version": "0.0.1",
+        "downloadUrl": "https://github.com/Sharkord/music-bot/releases/download/v0.0.1/music-bot-0.0.1.tar.gz",
+        "checksum": "2cac439b8cf67d367e4d9d157b616a8855d12cae70e4d20755f6610a0f090323",
+        "sdkVersion": 1,
+        "size": 368640,
+        "timestamp": 1774666614697
+      }
+    ]
+  },
+  {
+    "plugin": {
+      "id": "klipy",
+      "name": "Klipy",
+      "description": "A plugin to share GIFs from Klipy.",
+      "author": "Diogo Martino",
+      "logo": "https://i.imgur.com/LvqJc0W.png",
+      "homepage": "https://github.com/Sharkord/klipy",
+      "tags": [],
+      "categories": [],
+      "verified": true,
+      "screenshots": ["https://i.imgur.com/0f0YHgc.png"]
+    },
+    "versions": [
+      {
+        "version": "0.0.2",
+        "downloadUrl": "https://github.com/Sharkord/klipy/releases/download/v0.0.2/klipy-0.0.2.tar.gz",
+        "checksum": "ec385589f82f11300329e56ecd6d93ae8698e1bec8cbb09216f3d339134f827a",
+        "sdkVersion": 2,
+        "size": 122880,
+        "timestamp": 1788562315264
+      },
+      {
+        "version": "0.0.1",
+        "downloadUrl": "https://github.com/Sharkord/klipy/releases/download/v0.0.1/klipy-0.0.1.tar.gz",
+        "checksum": "5c596fa445757333388535d9f812ff9a9dc56c8a37fbb2a5a28dd9d52d57e0cd",
+        "sdkVersion": 1,
+        "size": 1331200,
+        "timestamp": 1774651378893
+      }
+    ]
+  },
+  {
+    "plugin": {
       "id": "git-logger",
       "name": "Git Logger",
       "description": "Receives GitHub webhooks and posts the events into channels.",
@@ -166,49 +217,6 @@
         "sdkVersion": 2,
         "size": 143360,
         "timestamp": 1788564593665
-      }
-    ]
-  },
-  {
-    "plugin": {
-      "id": "sharkord-soundboard",
-      "name": "SoundDrop",
-      "description": "Adds a soundboard to voice channels. If updating from a previous version, please view the readme on github.",
-      "author": "rinky-dinky",
-      "logo": "https://i.imgur.com/WQBHYh3.png",
-      "homepage": "https://github.com/rinky-dinky/sharkord-soundboard",
-      "tags": [],
-      "categories": [],
-      "verified": false,
-      "screenshots": [
-        "https://i.imgur.com/EdIxnae.jpeg",
-        "https://i.imgur.com/8blyb4t.jpeg"
-      ]
-    },
-    "versions": [
-      {
-        "version": "0.0.7",
-        "downloadUrl": "https://github.com/rinky-dinky/sharkord-soundboard/releases/download/v0.0.7/sharkord-soundboard-0.0.7.tar.gz",
-        "checksum": "67e35178d92e5f3a494c78e857729619c24b5a394ef9db82b5603beb799545d0",
-        "sdkVersion": 1,
-        "size": 81920,
-        "timestamp": 1776718434114
-      },
-      {
-        "version": "0.0.6",
-        "downloadUrl": "https://github.com/rinky-dinky/sharkord-soundboard/releases/download/v0.0.6/sharkord-soundboard-0.0.6.tar.gz",
-        "checksum": "a5d69d714579a7b3f9897e359e22fa43d2f15866e1f1cc6cb3ca27bc2b187a5d",
-        "sdkVersion": 1,
-        "size": 71680,
-        "timestamp": 1775500013060
-      },
-      {
-        "version": "0.0.4",
-        "downloadUrl": "https://github.com/rinky-dinky/sharkord-soundboard/releases/download/v0.0.4/sharkord-soundboard-0.0.4.tar.gz",
-        "checksum": "143bfe2da2d99abd54f88a23e169ee86f3893711e4497f3e32dd9cf7eab42110",
-        "sdkVersion": 1,
-        "size": 40960,
-        "timestamp": 1775054959908
       }
     ]
   }
