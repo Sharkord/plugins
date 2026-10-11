@@ -52,6 +52,33 @@
   },
   {
     "plugin": {
+      "id": "gainshark",
+      "name": "GainShark",
+      "description": "Raises the volume limit for users, screen shares and streams from 100% to 200%.",
+      "author": "GainShark contributors",
+      "logo": "https://raw.githubusercontent.com/baba537/GainShark/main/docs/logo.png",
+      "homepage": "https://github.com/baba537/GainShark",
+      "tags": [],
+      "categories": [],
+      "verified": false,
+      "screenshots": [
+        "https://raw.githubusercontent.com/baba537/GainShark/main/docs/context-menu.jpg",
+        "https://raw.githubusercontent.com/baba537/GainShark/main/docs/settings.jpg"
+      ]
+    },
+    "versions": [
+      {
+        "version": "1.1.0",
+        "downloadUrl": "https://github.com/baba537/GainShark/releases/download/v1.1.0/gainshark-1.1.0.tar.gz",
+        "checksum": "ff861c577b8fc5c376053eedb3ef90ad0caf8a38fe167d937b3a0024da65f798",
+        "sdkVersion": 2,
+        "size": 20480,
+        "timestamp": 1791715089409
+      }
+    ]
+  },
+  {
+    "plugin": {
       "id": "sharkord-rss",
       "name": "Sharkord RSS",
       "description": "Subscribe to RSS/Atom feeds and automatically post new articles to text channels. Admin Feeds tab with channel picker, SSRF-aware URL validation, per-feed exponential backoff, and optional initial import.",
