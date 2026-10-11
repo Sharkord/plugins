@@ -1,0 +1,11 @@
+{
+  "id": "soundboard",
+  "name": "Soundboard",
+  "description": "Play short sounds for everyone in your voice channel.",
+  "author": "Diogo Martino",
+  "homepage": "https://github.com/Sharkord/soundboard",
+  "logo": "https://i.imgur.com/ZMReNVa.png",
+  "screenshots": ["https://i.imgur.com/DQk4V8i.png"],
+  "tags": [],
+  "categories": []
+}
