@@ -1,0 +1,11 @@
+{
+  "id": "gainshark",
+  "name": "GainShark",
+  "description": "Raises the volume limit for users, screen shares and streams from 100% to 200%.",
+  "author": "GainShark contributors",
+  "logo": "https://raw.githubusercontent.com/baba537/GainShark/main/docs/logo.png",
+  "homepage": "https://github.com/baba537/GainShark",
+  "screenshots": ["https://raw.githubusercontent.com/baba537/GainShark/main/docs/user-card.jpg","https://raw.githubusercontent.com/baba537/GainShark/main/docs/settings.jpg"],
+  "tags": [],
+  "categories": []
+}
