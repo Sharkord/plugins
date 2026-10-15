@@ -3,9 +3,11 @@
   "name": "IPTV",
   "description": "Allows you to stream IPTV channels directly to voice channels.",
   "author": "Diogo Martino",
-  "homepage": "https://github.com/Sharkord/iptv",
   "logo": "https://i.imgur.com/ozINkq3.jpeg",
-  "screenshots": ["https://i.imgur.com/4WALR7e.png"],
+  "homepage": "https://github.com/Sharkord/iptv",
+  "screenshots": [
+    "https://i.imgur.com/4WALR7e.png"
+  ],
   "verified": true,
   "tags": [],
   "categories": []
