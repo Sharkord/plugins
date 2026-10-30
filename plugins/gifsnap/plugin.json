@@ -1,0 +1,15 @@
+{
+  "id": "gifsnap",
+  "name": "GifSnap",
+  "description": "Search and send GIFs from your channel composer, with explicit opt-in and send confirmation.",
+  "author": "Rowix",
+  "logo": "https://raw.githubusercontent.com/rowixgroup/gifsnap-sharkord/v0.0.1-alpha.2/docs/logo.png",
+  "homepage": "https://github.com/rowixgroup/gifsnap-sharkord",
+  "screenshots": [
+    "https://raw.githubusercontent.com/rowixgroup/gifsnap-sharkord/v0.0.1-alpha.2/docs/real-host-picker.png",
+    "https://raw.githubusercontent.com/rowixgroup/gifsnap-sharkord/v0.0.1-alpha.2/docs/real-host-mobile-picker.png"
+  ],
+  "verified": false,
+  "tags": [],
+  "categories": []
+}
