@@ -5,7 +5,10 @@
   "author": "Diogo Martino",
   "logo": "https://i.imgur.com/uVBNUK9.png",
   "homepage": "https://github.com/Sharkord/music-bot",
-  "screenshots": ["https://i.imgur.com/cYA9yTc.png"],
+  "screenshots": [
+    "https://i.imgur.com/cYA9yTc.png"
+  ],
+  "verified": false,
   "tags": [],
   "categories": []
 }
