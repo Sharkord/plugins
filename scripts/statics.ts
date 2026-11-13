@@ -6,5 +6,6 @@ export const VERIFIED_PLUGINS: string[] = [
   'music-bot',
   'iptv',
   'git-logger',
-  'soundboard'
+  'soundboard',
+  'streamer'
 ];
