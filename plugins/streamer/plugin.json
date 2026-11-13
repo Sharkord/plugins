@@ -1,0 +1,12 @@
+{
+  "id": "streamer",
+  "name": "Streamer",
+  "description": "Stream from streaming software (any WHIP client) into a voice channel, like a screen share.",
+  "author": "Diogo Martino",
+  "logo": "https://i.imgur.com/9BvRIdm.png",
+  "homepage": "https://github.com/Sharkord/streamer",
+  "screenshots": [],
+  "verified": false,
+  "tags": [],
+  "categories": []
+}
