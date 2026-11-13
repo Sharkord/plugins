@@ -258,6 +258,30 @@
   },
   {
     "plugin": {
+      "id": "streamer",
+      "name": "Streamer",
+      "description": "Stream from streaming software (any WHIP client) into a voice channel, like a screen share.",
+      "author": "Diogo Martino",
+      "logo": "https://i.imgur.com/9BvRIdm.png",
+      "homepage": "https://github.com/Sharkord/streamer",
+      "tags": [],
+      "categories": [],
+      "verified": false,
+      "screenshots": []
+    },
+    "versions": [
+      {
+        "version": "0.0.1",
+        "downloadUrl": "https://github.com/Sharkord/streamer/releases/download/v0.0.1/streamer-0.0.1.tar.gz",
+        "checksum": "05ddfccd35e2fafc61e6401164ac5cd19f36165eeac92c01bf5bfd8d9f0c922b",
+        "sdkVersion": 2,
+        "size": 133120,
+        "timestamp": 1794592846689
+      }
+    ]
+  },
+  {
+    "plugin": {
       "id": "iptv",
       "name": "IPTV",
       "description": "Allows you to stream IPTV channels directly to voice channels.",
