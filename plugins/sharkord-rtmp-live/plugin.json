@@ -1,0 +1,12 @@
+{
+  "id": "sharkord-rtmp-live",
+  "name": "RTMP Live",
+  "description": "Accept an RTMP push from OBS or a DJI action camera and publish it into a voice channel as a live stream.",
+  "author": "AndreasByrsting",
+  "logo": "https://cdn.jsdelivr.net/gh/AndreasByrsting/sharkord-rtmp-ingest@0c906b81b853e0d3265ca9412e1f636ec035b660/logo.png",
+  "homepage": "https://github.com/AndreasByrsting/sharkord-rtmp-ingest",
+  "screenshots": [],
+  "verified": false,
+  "tags": [],
+  "categories": []
+}
