@@ -274,6 +274,30 @@
   },
   {
     "plugin": {
+      "id": "voice-mod",
+      "name": "Voice Moderation",
+      "description": "Disconnect or server-mute someone from a voice call with a right-click, right under the volume slider. No kick from the server.",
+      "author": "carlosj188",
+      "logo": "https://raw.githubusercontent.com/carlosj188/sharkord-voice-mod/main/assets/logo.png",
+      "homepage": "https://github.com/carlosj188/sharkord-voice-mod",
+      "tags": [],
+      "categories": [],
+      "verified": false,
+      "screenshots": []
+    },
+    "versions": [
+      {
+        "version": "0.2.0",
+        "downloadUrl": "https://github.com/carlosj188/sharkord-voice-mod/releases/download/v0.2.0/voice-mod-0.2.0.tar.gz",
+        "checksum": "789936ff41b79bee81d9703905320412178fd529ab47c8398559d623611ff1c7",
+        "sdkVersion": 2,
+        "size": 20480,
+        "timestamp": 1795101220563
+      }
+    ]
+  },
+  {
+    "plugin": {
       "id": "sharkord-rss",
       "name": "Sharkord RSS",
       "description": "Subscribe to RSS/Atom feeds and automatically post new articles to text channels. Admin Feeds tab with channel picker, SSRF-aware URL validation, per-feed exponential backoff, and optional initial import.",
