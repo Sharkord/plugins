@@ -199,6 +199,14 @@
     },
     "versions": [
       {
+        "version": "0.0.5",
+        "downloadUrl": "https://github.com/Sharkord/soundboard/releases/download/v0.0.5/soundboard-0.0.5.tar.gz",
+        "checksum": "e4f5bb62afc463e4ad220a893c4805924f38035993d7952e1fcf7775aa0a3db2",
+        "sdkVersion": 2,
+        "size": 235520,
+        "timestamp": 1795646429894
+      },
+      {
         "version": "0.0.4",
         "downloadUrl": "https://github.com/Sharkord/soundboard/releases/download/v0.0.4/soundboard-0.0.4.tar.gz",
         "checksum": "c7922ff56fbf09c8ac6de1385c423456059fab6bf97b58c5545cd4b66776a4bd",
